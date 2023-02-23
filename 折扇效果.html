@@ -1,0 +1,150 @@
+<!--
+ * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @Date: 2023-02-19 18:34:01
+ * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @LastEditTime: 2023-02-19 19:39:01
+ * @FilePath: \VSqianduan\code\折扇效果.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        ul{
+            list-style: none;
+        }
+        ul{
+            width: 500px;
+            height: 400px;
+            margin: 10px auto;
+            border:5px solid gray;
+            transition:all 3s;
+            position:relative;
+        }
+       li{
+        width: 50px;
+        height: 200px;
+        position: absolute;
+        bottom:20px;
+        left: 50%;
+        margin-left: -25px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 1px 1px black;
+        text-align: center;
+        transition: all 3s;
+        transform-origin: bottom center;
+       }
+       ul li:not(:nth-child(7)){
+        opacity: 0;
+       }
+       ul:hover li{
+        opacity: 1;
+       }
+       ul li:nth-child(1){
+        background: red;
+       }
+       ul li:nth-child(2){
+        background: blue;
+       }
+       ul li:nth-child(3){
+        background: green;
+       }
+       
+       ul li:nth-child(4){
+        background: yellow;
+       }
+       ul li:nth-child(5){
+        background: purple;
+       }
+       ul li:nth-child(6){
+        background: orange;
+       }
+       ul li:nth-child(7){
+        background: skyblue;
+       }
+       ul li:nth-child(8){
+        background: wheat;
+       }
+       ul li:nth-child(9){
+        background: aquamarine;
+       }
+       ul li:nth-child(10){
+        background: fuchsia;
+       }
+       ul li:nth-child(11){
+        background: royalblue;
+       }
+       ul li:nth-child(12){
+        background: pink;
+       }
+       ul li:nth-child(13){
+        background: olivedrab;
+       }
+       ul:hover li:nth-child(1){
+        transform: rotate(90deg);
+       }
+       ul:hover li:nth-child(2){
+        transform: rotate(75deg);
+       }
+       ul:hover li:nth-child(3){
+        transform: rotate(60deg);
+       }
+       
+       ul:hover li:nth-child(4){
+        transform: rotate(45deg);
+       }
+       ul:hover li:nth-child(5){
+        transform: rotate(30deg);
+       }
+       ul:hover li:nth-child(6){
+        transform: rotate(15deg);
+       }
+       ul:hover li:nth-child(7){
+        transform: rotate(0);
+       }
+       ul:hover li:nth-child(8){
+        transform: rotate(-15deg);
+       }
+       ul:hover li:nth-child(9){
+        transform: rotate(-30deg);
+       }
+       ul:hover li:nth-child(10){
+        transform: rotate(-45deg);
+       }
+       ul:hover li:nth-child(11){
+        transform: rotate(-60deg);
+       }
+       ul:hover li:nth-child(12){
+        transform: rotate(-75deg);
+       } 
+       ul:hover li:nth-child(13){
+        transform: rotate(-90deg);
+       }
+    </style>
+</head>
+<body>
+    <ul class="box">
+        <li class="b1">1</li>
+        <li class="b2">2</li>
+        <li class="b3">3</li>
+        <li class="b4">4</li>
+        <li class="b5">5</li>
+        <li class="b6">6</li>
+        <li class="b7">7</li>
+        <li class="b8">8</li>
+        <li class="b9">9</li>
+        <li class="b10">10</li>
+        <li class="b11">11</li>
+        <li class="b12">12</li>
+        <li>13</li>
+    </ul>
+</body>
+</html>
